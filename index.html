@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Teddy Malbranque — Coach sportif 06 | TM Coaching Cannes, Mandelieu, Grasse</title>
-<meta name="description" content="Teddy Malbranque, coach sportif diplômé BPJEPS dans le 06. Coaching à domicile ou en salle, seul ou en duo, à Cannes, Mandelieu, Grasse, Antibes, Nice et Saint-Raphaël. Séance à 40 €.">
+<meta name="description" content="Teddy Malbranque, coach sportif diplômé BPJEPS dans le 06. Coaching à domicile et suivi à distance, à Cannes, Mandelieu, Grasse, Antibes, Nice et Saint-Raphaël. Séance à 40 €.">
 <meta property="og:title" content="Teddy Malbranque — TM Coaching, coach sportif dans les Alpes-Maritimes (06)">
-<meta property="og:description" content="Coaching à domicile, en salle de CrossFit ou en duo, avec un coach présent à chaque séance. Séance découverte à 40 €, remboursée si tu t'engages.">
+<meta property="og:description" content="Coaching à domicile avec un coach présent à chaque séance, ou suivi à distance. Séance découverte à 40 €, remboursée si tu t'engages.">
 <link rel="canonical" href="https://tm-coaching.github.io/">
 <meta name="msvalidate.01" content="EA259410F6A9F4A74F817505472AAB1F" />
 <meta property="og:url" content="https://tm-coaching.github.io/">
@@ -19,7 +19,7 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"SportsActivityLocation","name":"TM Coaching — Teddy Malbranque, coach sportif",
-"description":"Coach sportif diplômé BPJEPS dans les Alpes-Maritimes : coaching à domicile, en salle de CrossFit, seul ou en duo.",
+"description":"Coach sportif diplômé BPJEPS dans les Alpes-Maritimes : coaching à domicile et suivi à distance.",
 "founder":{"@type":"Person","name":"Teddy Malbranque","jobTitle":"Coach sportif","hasCredential":"BPJEPS Activités de la Forme, option Haltérophilie Musculation","sameAs":["https://instagram.com/ted.mlb"]},
 "telephone":"+33662251109","email":"TMcoaching4@gmail.com",
 "address":{"@type":"PostalAddress","addressLocality":"Pégomas","postalCode":"06580","addressRegion":"Alpes-Maritimes","addressCountry":"FR"},
@@ -204,7 +204,7 @@
   .section-head p{font-size:16px; color:var(--muted);}
 
   /* ---------- Services ---------- */
-  .services-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:20px;}
+  .services-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:20px;}
   @media(max-width:900px){.services-grid{grid-template-columns:1fr;}}
   .service-card{
     background:var(--card); border-radius:var(--radius);
@@ -226,7 +226,7 @@
   .service-card p{font-size:14.5px; color:var(--muted);}
 
   /* ---------- Pricing ---------- */
-  .pricing-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:20px; align-items:stretch;}
+  .pricing-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:20px; align-items:stretch;}
   @media(max-width:900px){.pricing-grid{grid-template-columns:1fr;}}
   .price-card{
     background:var(--card); border-radius:var(--radius);
@@ -611,6 +611,8 @@
 
   /* ---------- Formules ---------- */
   #formules{background:var(--cream);}
+  .pricing-grid{max-width:920px; gap:24px;}
+  .services-grid{gap:24px;}
   .price-card{padding:42px 34px 36px; border-radius:30px;}
   .price-card .amount{font-size:58px; font-weight:900; letter-spacing:-.045em; font-variant-numeric:tabular-nums;}
   .price-card .amount small{font-size:17px; font-weight:700; letter-spacing:0; margin-right:6px; vertical-align:.9em; color:var(--muted);}
@@ -725,7 +727,7 @@
     <div>
       <div class="badge"><span class="dot"></span>Coach sportif diplômé d'État · Alpes-Maritimes</div>
       <h1>L'accompagnement<br><span class="neon">qui fait la différence.</span></h1>
-      <p class="hero-sub">À domicile ou en salle de CrossFit, seul ou à deux : un programme construit pour toi et un coach présent du premier au dernier exercice, dans tout le 06 et l'est du Var.</p>
+      <p class="hero-sub">À domicile ou à distance : un programme construit pour toi et un coach qui te suit à chaque étape, dans tout le 06 et l'est du Var.</p>
       <div class="hero-ctas">
         <a href="#contact" class="btn btn-primary" data-formule="Séance découverte — 40€">Réserver une séance découverte</a>
         <a href="#formules" class="btn btn-secondary">Voir les tarifs</a>
@@ -768,8 +770,8 @@
   <div class="wrap">
     <div class="section-head reveal">
       <div class="eyebrow">Services</div>
-      <h2>Trois façons de <span class="grad-text">s'entraîner</span></h2>
-      <p>Chez toi ou en salle de CrossFit, seul ou à deux : à toi de choisir le format qui te correspond. J'anime aussi des cours collectifs à CrossFit Cannes.</p>
+      <h2>Deux façons de <span class="grad-text">s'entraîner</span></h2>
+      <p>Chez toi avec moi à chaque séance, ou à distance avec ton programme et mon suivi : à toi de choisir le format qui te correspond.</p>
     </div>
     <div class="services-grid reveal">
       <div class="service-card">
@@ -781,17 +783,10 @@
       </div>
       <div class="service-card">
         <div class="service-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 7.5a3.5 3.5 0 1 1 7 0"/><path d="M8.6 7.6 8 9.2"/><path d="M15.4 7.6 16 9.2"/><circle cx="12" cy="14.5" r="6"/></svg>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg>
         </div>
-        <h3>Coaching personnel en salle</h3>
-        <p>Séances individuelles ou en duo en salle de CrossFit, avec accès au matériel complet.</p>
-      </div>
-      <div class="service-card">
-        <div class="service-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15 14.2c.6-.1 1.3-.2 2-.2 2.8 0 4 2 4 4.5"/></svg>
-        </div>
-        <h3>Coaching en duo</h3>
-        <p>Viens à deux (ami, conjoint, collègue) : même exigence, même attention, et un tarif partagé.</p>
+        <h3>Suivi à distance</h3>
+        <p>Ton programme sur mesure à faire en autonomie, où que tu sois, avec mon suivi et mes corrections sur WhatsApp.</p>
       </div>
     </div>
   </div>
@@ -821,29 +816,17 @@
       <p><strong>Séance découverte : 40 €, remboursée si tu t'engages avec moi ensuite.</strong> Une question ? Écris-moi via le formulaire ou sur WhatsApp.</p>
     </div>
     <div class="pricing-grid reveal">
-      <div class="price-card">
+      <div class="price-card highlight on-dark">
         <div class="tag">Individuel</div>
         <div class="amount">40€</div>
         <div class="per">la séance d'1 h</div>
-        <p class="desc">Un suivi 100% sur mesure, à domicile ou en salle de CrossFit.</p>
+        <p class="desc">Un suivi 100% sur mesure, chez toi, avec moi à chaque séance.</p>
         <ul class="incl">
           <li>Programme construit pour toi</li>
           <li>Coach présent toute la séance</li>
           <li>Suivi WhatsApp entre les séances</li>
         </ul>
-        <a href="#contact" class="btn btn-secondary" data-formule="Individuel — 40€">Réserver</a>
-      </div>
-      <div class="price-card highlight on-dark">
-        <div class="tag">Duo</div>
-        <div class="amount">70€</div>
-        <div class="per">la séance d'1 h, à deux</div>
-        <p class="desc">Viens à deux : même exigence, même attention, soit 35 € chacun.</p>
-        <ul class="incl">
-          <li>Séance pensée pour vos deux profils</li>
-          <li>Coach présent toute la séance</li>
-          <li>À domicile ou en salle</li>
-        </ul>
-        <a href="#contact" class="btn btn-primary" data-formule="Duo — 70€ à deux">Réserver</a>
+        <a href="#contact" class="btn btn-primary" data-formule="Individuel — 40€">Réserver</a>
       </div>
       <div class="price-card">
         <div class="tag">Suivi à distance</div>
@@ -875,7 +858,7 @@
           <div class="fact"><span class="k">Diplôme</span><span class="v">BPJEPS Activités de la Forme, option Haltérophilie Musculation</span></div>
           <div class="fact"><span class="k">Pratique actuelle</span><span class="v">CrossFit</span></div>
           <div class="fact"><span class="k">Parcours</span><span class="v">Force athlétique &amp; musculation</span></div>
-          <div class="fact"><span class="k">Formats</span><span class="v">Domicile · Salle · Solo ou duo</span></div>
+          <div class="fact"><span class="k">Formats</span><span class="v">Domicile · À distance</span></div>
           <div class="fact"><span class="k">Zone</span><span class="v">Tout le 06 + est du Var</span></div>
       </div>
     </div>
@@ -959,7 +942,6 @@
           <select id="format" name="Formule">
             <option>Séance découverte — 40€</option>
             <option>Individuel — 40€</option>
-            <option>Duo — 70€ à deux</option>
             <option>Suivi à distance — au mois</option>
             <option>Autre demande</option>
           </select>
@@ -1037,10 +1019,6 @@
       <details class="faq-item">
         <summary>Je débute, est-ce que c'est fait pour moi ?<span class="plus">+</span></summary>
         <p class="faq-a">Oui. Chaque programme est construit selon ton niveau de départ, débutant compris — l'accompagnement individuel est justement pensé pour ça.</p>
-      </details>
-      <details class="faq-item">
-        <summary>Comment se passe une séance en duo ?<span class="plus">+</span></summary>
-        <p class="faq-a">Vous venez à deux (ami, conjoint, collègue...), la séance est co-construite pour vos deux profils, avec la même attention qu'en individuel.</p>
       </details>
       <details class="faq-item">
         <summary>Est-ce que je peux réserver juste une séance découverte ?<span class="plus">+</span></summary>
